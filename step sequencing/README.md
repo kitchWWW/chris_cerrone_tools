@@ -4,15 +4,18 @@ the current sample-steps.txt format is:
 
 `[filename without extension] [0-1 start/stop] [fadetime in ms]`
 
+e.g.
+
 ```
 1, 1 1 10; // fade in file 1 over 10ms
 2, 2 1 10; // fade in file 2 over 10ms
 3, 3 1 10 1 0 1000; // fade in file 3 over 10ms, fade out file 1 over 1000
 ```
-
 the current step-sequencer-info.txt format is:
 
 `[milliseconds from last manual step after which step auto-plays] [optional reset timer flag]` 
+
+e.g.
 
 ```
 3, 2000;
